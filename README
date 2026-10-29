@@ -1,0 +1,161 @@
+# 🎙️ Kavya – AI-Powered Voice Assistant
+
+Kavya is a modern, browser-based voice assistant designed to provide an interactive, hands-free experience. Using the wake phrase **"Kavya"**, users can interact through voice commands or text input and receive spoken responses.
+
+Built with React, TypeScript, Tailwind CSS, and browser speech technologies, Kavya offers a responsive interface, customizable voice settings, and quick commands for everyday tasks.
+
+## ✨ Features
+
+- 🎤 **Wake Phrase Detection:** Activate the assistant using "Kavya" while the webpage is open and active.
+- 🗣️ **Speech Recognition:** Recognize voice commands using supported browser speech APIs.
+- 🔊 **Text-to-Speech:** Hear responses through browser speech synthesis.
+- 🌐 **Website Navigation:** Open Google, YouTube, Gmail, GitHub, LinkedIn, ChatGPT, and Lovable.
+- ⏰ **Quick Commands:** Check the current time and date.
+- 💬 **Conversation History:** View previous messages and assistant responses.
+- 🌍 **Multilingual Settings:** Choose English (India), Telugu, or Hindi for speech output settings.
+- ⚙️ **Customizable Voice:** Adjust speech rate, choose an available voice, and toggle spoken responses.
+- ⌨️ **Text Input:** Interact with Kavya without using a microphone.
+- 📱 **Responsive UI:** Designed for desktop and mobile screens.
+- 🔐 **Privacy Awareness:** Includes microphone permission guidance and information about browser-based speech recognition.
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React | User interface |
+| TypeScript | Type-safe development |
+| Tailwind CSS | Styling and responsive design |
+| Web Speech API | Browser-based speech recognition |
+| Speech Synthesis API | Spoken assistant responses |
+| Vite | Development server and build tooling |
+
+## 🚀 Live Demo
+
+**Try Kavya here:**
+
+[Open Kavya Voice Assistant](https://id-preview--67f26c0b-9d6e-41be-9e3f-0efaf81eb124.lovable.app)
+
+> Note: This is a Lovable preview link. The project must be published or deployed separately for a permanent public website.
+
+## 💻 Getting Started
+
+### Prerequisites
+
+- Node.js (LTS recommended)
+- npm
+- A modern browser such as Google Chrome or Microsoft Edge
+- Microphone access for voice input
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd YOUR_REPOSITORY
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal, usually:
+
+   ```text
+   http://localhost:5173
+   ```
+
+**Important:** These commands assume your downloaded project contains the standard Vite configuration and `package.json`.
+
+## 🎙️ How to Use
+
+1. Open Kavya in a supported browser.
+2. Allow microphone access when prompted.
+3. Click **Start listening** for a voice command, or enable **Listen for "Kavya"**.
+4. Try saying:
+   - "Kavya, open YouTube."
+   - "What time is it?"
+   - "What's today's date?"
+   - "Hello Kavya."
+   - "Help."
+5. Alternatively, type a message into the chat input.
+6. Customize the language and voice settings as needed.
+
+## 🗣️ Supported Commands
+
+| Command | Expected Action |
+|---|---|
+| "What time is it?" | Announces the current time |
+| "What's today's date?" | Announces the date |
+| "Open Google" | Opens Google in a new tab |
+| "Open YouTube" | Opens YouTube in a new tab |
+| "Open Gmail" | Opens Gmail in a new tab |
+| "Open GitHub" | Opens GitHub in a new tab |
+| "Open LinkedIn" | Opens LinkedIn in a new tab |
+| "Open ChatGPT" | Opens ChatGPT in a new tab |
+| "Help" | Displays available commands |
+| "Clear conversation" | Requests confirmation before clearing the conversation |
+
+## ⚙️ Configuration
+
+Kavya includes settings for:
+
+- Speech language
+- Available browser voice
+- Speech rate
+- Spoken response enablement
+- Wake phrase
+- Dictation review preferences
+
+Voice availability depends on the operating system and browser.
+
+## 🔒 Privacy and Limitations
+
+- Microphone access requires user permission.
+- Wake-phrase listening is browser-based and depends on speech recognition support.
+- Wake-phrase detection works only while the webpage remains open and active; it is not an always-on desktop wake-word engine.
+- Speech recognition may rely on a browser-managed online service.
+- Browser speech synthesis uses locally available or browser-provided voices.
+- The current version supports predefined commands and demo responses. A real AI model/API has not yet been connected.
+- Telugu and Hindi settings do not necessarily mean that every command is understood in those languages.
+
+## 🔮 Future Enhancements
+
+- Integrate a real AI model for conversational responses.
+- Add a secure backend for AI API requests.
+- Develop a Windows desktop application.
+- Add reliable background wake-word detection.
+- Improve Telugu and Hindi command recognition.
+- Add application launching and operating-system controls.
+- Implement configurable automation and personalized commands.
+
+## 🎯 Project Objective
+
+The goal of Kavya is to explore voice-based human-computer interaction and build a personal assistant that makes everyday digital tasks more convenient through speech and text.
+
+## 👨‍💻 Author
+
+**Guna Sai Teja K**
+
+Computer Science and Engineering
+
+## 📄 License
+
+This project can be distributed under the MIT License if you choose to include one. Add a `LICENSE` file to the repository before claiming that the project is officially licensed under MIT.
+
+---
+
+⭐ If you find this project interesting, consider starring the repository and following its future development.
